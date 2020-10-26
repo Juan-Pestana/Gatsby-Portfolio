@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_description_funciones_puestos",
+  "info": {
+    "name": "funciones_puesto",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

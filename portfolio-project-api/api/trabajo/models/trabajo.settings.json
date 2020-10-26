@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trabajos",
+  "info": {
+    "name": "trabajo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "empresa": {
+      "type": "string",
+      "required": true
+    },
+    "puesto": {
+      "type": "string",
+      "required": true
+    },
+    "fecha": {
+      "type": "string",
+      "required": true
+    },
+    "descr": {
+      "type": "component",
+      "repeatable": true,
+      "component": "description.funciones-puesto",
+      "required": true
+    }
+  }
+}
