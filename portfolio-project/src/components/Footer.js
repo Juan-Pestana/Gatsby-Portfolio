@@ -1,7 +1,11 @@
 import React from "react"
 import SocialLinks from "../constants/socialLinks"
 const Footer = () => {
-  return <h2>footer component</h2>
+  return <footer className='footer'>
+    <SocialLinks styleClass='footer-links'/>
+    <h4>copyright&copy;{new Date().getFullYear()} 
+    <span> Juan Pestana </span> all rights reserved </h4>
+  </footer>
 }
 
 export default Footer

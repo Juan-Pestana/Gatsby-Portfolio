@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import { graphql } from "gatsby"
 import Blogs from "../components/Blogs"
+import SEO from "../components/SEO"
 // 
 
 const Blog = ({
@@ -10,6 +11,7 @@ const Blog = ({
 }) => {
   return (
     <Layout>
+    <SEO title = 'Blog' description='Blog de Juan Pestana, programación, historias y otras batallas'/>
       <section className="blog-page">
         <Blogs blogs={blogs} title='blog'/>
       </section>
