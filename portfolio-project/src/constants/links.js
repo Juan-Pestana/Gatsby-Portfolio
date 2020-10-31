@@ -8,12 +8,12 @@ const data = [
   },
   {
     id: 2,
-    text: "about",
+    text: "Sobre mi",
     url: "/about/",
   },
   {
     id: 3,
-    text: "projects",
+    text: "proyectos",
     url: "/projects/",
   },
   {
@@ -23,7 +23,7 @@ const data = [
   },
   {
     id: 5,
-    text: "contact",
+    text: "contacta",
     url: "/contact/",
   },
 ]

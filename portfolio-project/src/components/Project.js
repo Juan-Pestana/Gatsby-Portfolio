@@ -19,7 +19,7 @@ const Project = ({description, github, url, title, stack, image, index}) => {
       </div>
       <div className="project-links">
         <a href={github}><FaGithubSquare className='project-icon'/></a>
-        <a href={url}><FaShareSquare className='project-icon'/></a>
+        {url && <a href={url}><FaShareSquare className='project-icon'/></a>}
       </div>
     </div>
   </article>

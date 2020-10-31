@@ -4,19 +4,19 @@ export default [
   {
     id: 1,
     icon: <FaCode className="service-icon" />,
-    title: "web development",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    title: "Desarrollo Web",
+    text: `JavaScript, React, Node.js, MongoDB.. y todo lo que vendrá... Cuando el aprendizaje continuo forma parte de tu manera de hacer las cosas.`,
   },
   {
     id: 2,
     icon: <FaSketch className="service-icon" />,
-    title: "web design",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    title: "Conocimiento de Negocio",
+    text: `Por que un hoy en dia, un desarrollador debe conocer y entender los objetivos de las personas u organizaciónes con las que colabora.`,
   },
   {
     id: 3,
     icon: <FaAndroid className="service-icon" />,
-    title: "app design",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    title: "Diferente",
+    text: `Desarrollador Web Junior, Profesional Senior. Porque nunca es tarde para recomenzar cuando descubres una pasión que por si sola te levanta por las mañanas.`,
   },
 ]
