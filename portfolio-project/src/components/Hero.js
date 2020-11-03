@@ -42,8 +42,10 @@ const Hero = () => {
        </div>
         
       </article>
-
-        <HeroImg />
+       
+          <HeroImg />
+        
+        
 
       {/* <Image fluid={fluid} className='hero-img'/> */}
     </div>

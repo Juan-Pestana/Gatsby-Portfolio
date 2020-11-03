@@ -10,7 +10,7 @@ module.exports = {
     description: "Portfolio de los proyectos de desarrollo web de Juan Pestana",
     author: "Juan Pestana",
     linkedInUrl: "https://www.linkedin.com/in/juan-pestana",
-    image: "/twitter-img.png",
+    image: "/portfolio.png",
     siteUrl: "https://juanpestana.netlify.app",
   },
   plugins: [
@@ -18,6 +18,18 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-gitalk`,
+      options: {
+        clientID: '35dec51d7a84e28e1359',
+        clientSecret: '69a414d596cdc6fa2967e9f2cdae95927ef33954',
+        repo: 'https://juanpestana.netlify.app/',
+        owner: 'juan-pestana',
+        admin: ['juan-pestana'],
+
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
