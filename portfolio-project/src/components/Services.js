@@ -5,7 +5,7 @@ import { FaFontAwesomeLogoFull } from "react-icons/fa"
 const Services = () => {
   return (
     <section className='section bg-grey'>
-      <Title title='services'/>
+      <Title title='Servicio'/>
       <div className="section-center services-center">
         {services.map((service) =>{
           const {id, title, icon, text} = service
