@@ -30,7 +30,7 @@ const Jobs = () => {
 
   const[value,setValue] = React.useState(0)
 
-  const {empresa, fecha, puesto, descr, strapiID} = jobs[value]
+  const {empresa, fecha, puesto, descr} = jobs[value]
   
   console.log(empresa, fecha, puesto, descr);
 
@@ -59,7 +59,7 @@ const Jobs = () => {
           })}
         </article>
       </div>
-      <Link to='/about' className='btn center-btn'>Más información</Link>
+      <Link to='/about' className='btn center-btn'>Sobre mí</Link>
     </section>
   )
 }

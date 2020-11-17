@@ -9,7 +9,7 @@ const Sidebar = ({isOpen, toggleSidebar}) => {
  
 
   return <aside className={`sidebar ${isOpen ? "show-sidebar" : ""} `}>
-    <button className='close-btn' onClick={toggleSidebar}>
+    <button className='close-btn' aria-label='close sidebar' onClick={toggleSidebar}>
       <FaTimes/>
     </button>
     <div className="side-container">

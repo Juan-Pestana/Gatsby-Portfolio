@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactVivus from 'react-vivus';
-import svg from '../assets/dreamstime_pequeño.svg';
+
  
 const HeroImg = () => (
   <ReactVivus

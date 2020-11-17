@@ -13,7 +13,7 @@ const Navbar = ({toggleSidebar}) => {
       <div className='nav-header'>
         <Link to='/'><img src={logo} className='nav-logo' alt="logo" /></Link>
         
-        <button type='button' className='toggle-btn' onClick={toggleSidebar}>
+        <button type='button' aria-label='open menu' className='toggle-btn' onClick={toggleSidebar}>
           <FaAlignRight></FaAlignRight>
         </button>
       </div>

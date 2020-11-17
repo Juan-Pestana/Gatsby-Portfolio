@@ -4,11 +4,14 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
+require("dotenv").config()
+
 module.exports = {
   siteMetadata: {
     title: "Juan Pestana Portfolio programador web",
     description: "Portfolio de los proyectos de desarrollo web de Juan Pestana",
     author: "Juan Pestana",
+    twitterUsername: "PestanaDev",
     linkedInUrl: "https://www.linkedin.com/in/juan-pestana",
     image: "/portfolio.png",
     siteUrl: "https://juanpestana.netlify.app",
@@ -18,18 +21,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
-    {
-      resolve: `gatsby-plugin-gitalk`,
-      options: {
-        clientID: '35dec51d7a84e28e1359',
-        clientSecret: '69a414d596cdc6fa2967e9f2cdae95927ef33954',
-        repo: 'https://juanpestana.netlify.app/',
-        owner: 'juan-pestana',
-        admin: ['juan-pestana'],
-
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      }
-    },
+    
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -49,19 +41,19 @@ module.exports = {
         singleTypes: [`about`],
       },
     },
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Roboto`,
-            variants: [`400`, `700`],
-          },
-          {
-            family: `Open Sans`,
-          },
-        ],
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
+    //   options: {
+    //     fonts: [
+    //       {
+    //         family: `Roboto`,
+    //         variants: [`400`, `700`],
+    //       },
+    //       {
+    //         family: `Open Sans`,
+    //       },
+    //     ],
+    //   },
+    // },
   ],
 }
